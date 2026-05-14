@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://old-ducks-invite.loca.lt/api';
+const API_BASE_URL = 'https://investigators-proper-shower-required.trycloudflare.com/api';
 
 /**
  * Shorten a URL using the Laravel backend.
