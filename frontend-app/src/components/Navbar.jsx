@@ -3,14 +3,14 @@ import { Link2 } from 'lucide-react';
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 glass border-b border-white/10 backdrop-blur-md">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-black/40 backdrop-blur-xl border-b border-white/[0.08]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          <div className="flex items-center gap-2">
-            <div className="bg-primary p-1.5 rounded-lg">
+        <div className="flex items-center justify-between h-20">
+          <div className="flex items-center gap-3 group cursor-pointer">
+            <div className="bg-gradient-to-br from-primary to-accent p-2 rounded-xl shadow-[0_0_20px_rgba(59,130,246,0.3)] transition-transform group-hover:scale-110">
               <Link2 className="w-6 h-6 text-white" />
             </div>
-            <span className="text-xl font-bold tracking-tight text-white">
+            <span className="text-2xl font-bold tracking-tight text-white bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
               Shortly
             </span>
           </div>

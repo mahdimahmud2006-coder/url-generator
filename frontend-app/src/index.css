@@ -9,10 +9,21 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #0a0a0a;
+  background-color: #050505;
   color: #ededed;
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   overflow-x: hidden;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle at 2px 2px, rgba(255,255,255,0.05) 1px, transparent 0);
+  background-size: 40px 40px;
+  pointer-events: none;
+  z-index: -1;
 }
 
 /* Custom Glassmorphism Utility */
