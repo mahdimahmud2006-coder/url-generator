@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://127.0.0.1:8000/api';
+const API_BASE_URL = 'https://early-rules-sit.loca.lt/api';
 
 /**
  * Shorten a URL using the Laravel backend.
